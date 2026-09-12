@@ -1,7 +1,6 @@
 .git
+.gitignore
 .idea
 .vscode
 *.iml
-src
-test
-README.md
+target
