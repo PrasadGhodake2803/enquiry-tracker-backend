@@ -72,9 +72,9 @@ public class DashboardService {
         
         data.put("onlineEnquiry", enquiryRepo.onlineEnquiry());
 
-        data.put("offlineEnquiry", enquiryRepo.onlineEnquiry());
+        data.put("offlineEnquiry", enquiryRepo.offlineEnquiry());
         
-        data.put("telephonicEnquiry", enquiryRepo.onlineEnquiry());
+        data.put("telephonicEnquiry", enquiryRepo.telephonicEnquiry());
 
         return data;
     }

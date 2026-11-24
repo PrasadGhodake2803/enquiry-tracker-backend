@@ -22,7 +22,6 @@ import com.EnquriyTracker.EnquriyTracker.service.PDFService;
 
 @RestController
 @RequestMapping("/api/pdf")
-@CrossOrigin(origins = "*")
 public class PDFController {
 
     @Autowired

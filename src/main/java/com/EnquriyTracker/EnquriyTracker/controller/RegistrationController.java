@@ -25,7 +25,6 @@ import com.EnquriyTracker.EnquriyTracker.service.Register_Service;
 
 @RestController
 @RequestMapping("/api/registerStudent")
-@CrossOrigin(origins = "*")
 public class RegistrationController {
 
     @Autowired

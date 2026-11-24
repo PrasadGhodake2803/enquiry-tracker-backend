@@ -19,7 +19,6 @@ import com.EnquriyTracker.EnquriyTracker.service.CourseService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
 public class CourseController {
 
     @Autowired

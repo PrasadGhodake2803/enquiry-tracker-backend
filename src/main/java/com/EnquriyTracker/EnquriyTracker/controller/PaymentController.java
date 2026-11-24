@@ -16,7 +16,6 @@ import com.EnquriyTracker.EnquriyTracker.service.PaymentService;
 
 @RestController
 @RequestMapping("/api/payment")
-@CrossOrigin(origins = "*")
 public class PaymentController {
 
     @Autowired

@@ -23,7 +23,6 @@ import com.EnquriyTracker.EnquriyTracker.repository.EnquiryRepository;
 import com.EnquriyTracker.EnquriyTracker.service.EnquiryService;
 
 @RestController
-@CrossOrigin("*")
 @RequestMapping("/api")
 public class EnquiryController {
 

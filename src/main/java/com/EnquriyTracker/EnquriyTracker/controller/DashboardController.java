@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.EnquriyTracker.EnquriyTracker.DTO.RecentRegistrationDTO;
 import com.EnquriyTracker.EnquriyTracker.service.DashboardService;
 
-@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/dashboard")
 public class DashboardController {
